@@ -145,6 +145,18 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
+```mermaid
+flowchart 
+    A(Fork Repository) --> B((Clone Fork))
+    B --> C{Create Feature Branch}
+    C --> D[Make Changes]
+    D --> E((Commit Changes))
+    E --> F((Push Changes))
+    F --> G((Create Pull Request))
+    G -- Approved --> H((Merge Pull Request))
+    G -- Rejected --> D
+```
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
