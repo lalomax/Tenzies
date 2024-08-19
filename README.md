@@ -139,7 +139,7 @@ Contributions are what make the open source community such an amazing place to l
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
 Don't forget to give the project a star! Thanks again!
 
-1. Fork the Project
+1. Clone the repository
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
@@ -147,12 +147,12 @@ Don't forget to give the project a star! Thanks again!
 
 ```mermaid
 flowchart 
-    A(Fork Repository) --> B((Clone Fork))
-    B --> C{Create Feature Branch}
+    A(1. Clone the repository) --> B((Clone Fork))
+    B --> C{2. Create Feature Branch}
     C --> D[Make Changes]
-    D --> E((Commit Changes))
-    E --> F((Push Changes))
-    F --> G((Create Pull Request))
+    D --> E((3. Commit Changes))
+    E --> F((4. Push Changes))
+    F --> G((5. Create Pull Request))
     G -- Approved --> H((Merge Pull Request))
     G -- Rejected --> D
 ```
