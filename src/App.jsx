@@ -61,7 +61,7 @@ function App() {
   return (
     <main>
       {tenzies && <Confetti />}
-      <h1 className="title">Tenzies</h1>
+      <h1 className="title">Tenzies Dice Game</h1>
       <p className="instructions">
         <code>Roll</code> until all display the same value. Click each die to <code>lock</code> it at its current number during rolls.
       </p>
