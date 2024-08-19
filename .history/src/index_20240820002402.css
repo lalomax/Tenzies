@@ -22,9 +22,9 @@ main {
   margin: auto;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 640px) {
   main {
-    height: 700px; /* Height for mobile devices */
+    height: 700;
   }
 }
 
